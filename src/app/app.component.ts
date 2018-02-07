@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+// import appComponent if dependcy injecting into main file
 
 @Component({
   selector: 'app-root',
