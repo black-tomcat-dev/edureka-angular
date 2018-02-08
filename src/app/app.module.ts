@@ -5,11 +5,14 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { UserComponent } from './components/user/user.component';
-import { AboutComponent } from './components/about/about.component';
+import { Module2Component } from './components/module2/module2.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { ClockComponent } from './components/clock/clock.component';
 
 const appRoutes: Routes = [
   {path:'', component:UserComponent},
-  {path:'about', component:AboutComponent},
+  {path:'blog', component:BlogComponent},
+  {path:'module2', component:Module2Component},
 
 
 ]
@@ -17,7 +20,9 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     UserComponent,
-    AboutComponent
+    Module2Component,
+    BlogComponent,
+    ClockComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,49 @@
-<ul>
-    <li><a routerLink = "/"> User</a></li>
-    <li><a routerLink = "/about"> About</a></li>
-</ul>
-<router-outlet></router-outlet>
+<div class="sticky" style="margin: -4%">
+    <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+            <header>
+                <h2>Kevin VdM Edureka Angular Course</h2>
+                <h4>
+                    Windsor, UK
+                </h4>
+                <h4>
+                    <a href="mailto:kevin.vdm@outlook.com">Email: Kevin.vdm@outlook.com</a>
+                </h4>
+            </header>
+        </div>
+        <div class="col-lg-2 visible-lg-block col-md-2 visible-md-block">
+            <app-clock></app-clock>
+        </div>
+    </div>
 
+    <div class="container-fluid" style="margin: 0; padding: 0">
+        <div class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand">Angular5</a>
+                </div>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a routerLink="/">Home</a>
+                        </li>
+                        <li>
+                            <a routerLink="/blog">Blog</a>
+                        </li>
+                        <li>
+                            <a routerLink="/module2"> Module 2</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
