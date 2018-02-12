@@ -1,0 +1,27 @@
+thead {
+  color: purple;
+}
+
+h3 {
+  color: skyblue;
+}
+
+.product-content tr td {
+  position: relative;
+  top: 10px;
+}
+
+.product-content tr td:first-child {
+    position: relative;
+    top: 0;
+  }
+
+.well{
+    height: 50px;
+    position: relative;
+    top: -15px;
+}
+
+.grid-view{
+  display:none;
+}
